@@ -6,7 +6,7 @@ from call import SendCall
 from sms import SendSms
 
 
-r = get("https://raw.githubusercontent.com/NRFgithb/smsbomb/blob/main/BamkCheck%20SMS%20BOOM/sms.py").text
+r = get("https://raw.githubusercontent.com/NRFgithb/smsbom/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
